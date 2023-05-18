@@ -3,7 +3,7 @@ This is an analysis for an Airline company
 ![](https://github.com/yemiobolo/Alpha-Airline-Analysis/blob/main/Flight%20folder/PngItem_57732.png)
 
 ## Introduction
-This is an analysis of an Airline called the Alpha Airline that I recently completed. The project involves data extraction, cleaning, analysis and visualization to derive actionable insights and answer crucial questions in order to help the store make data driven decisions, using Microsoft Excel. This project has helped to enhance my data analytics skills.
+This is an analysis of an Airline called the Alpha Airline that I recently completed. The project involves data extraction, cleaning, analysis and visualization to derive actionable insights and answer crucial questions in order to help the airline make data driven decisions, using Microsoft Excel and Power BI. This project has helped to enhance my data analytics skills.
 
 ## Business Problem
 1. How many flights use the A319 aircraft?
@@ -24,17 +24,19 @@ The dataset folder is made up of 3 files:
 
 ## Data Exploration and Transformations 
 I performed some basic and advanced transformations on the dataset using both Excel functions and formulas. Some of these are;
-1.	Date part extraction to extract/dissect the date into multiple data components using the *Text function* 
+--Date part extraction to extract/dissect the date into multiple data components using the *Text function* 
 
 ![](https://github.com/yemiobolo/Alpha-Airline-Analysis/blob/main/Flight%20folder/Flight%20text%20function.PNG)
-2.	The multiplication formula to ascertain revenue after 10% tax deduction.
+
+--The multiplication formula to ascertain revenue after 10% tax deduction.
 
 ![](https://github.com/yemiobolo/Alpha-Airline-Analysis/blob/main/Flight%20folder/Flight%20multiply%20formula.PNG)
-3.	The Vlookup to look for and merge specified values across sheets.
+
+--The Vlookup to look for and merge specified values across sheets.
 
 ![](https://github.com/yemiobolo/Alpha-Airline-Analysis/blob/main/Flight%20folder/Flights%20Vlookup.PNG)
 
-6.	Power BI Dax functions.
+--Power BI Dax functions.
 
 ## Creating Dimensions Table
 A date dimension contains all information about a certain date and makes analyzing data as efficiently and accurate as possible. The most commonly known date attributes are: day, week, month, quarter and year. Here I created four date dimension table;
